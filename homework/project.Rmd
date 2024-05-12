@@ -79,7 +79,7 @@ Given the collaborative development aspect of this assignment, you are also aske
 you are just asked not to unnecessarily butcher the provided code.)
 This is to emulate a real-life setting of contributing to an existing open-source project, in which it is essential to respect the existing designs and styles the team has established.
 
-To provide one reference point to judge how much of the code should be re-used, a command `git diff --stat pre-task-one..post-task-1` tells me (the instructor) that my personal attempt at Task 1 required 67 lines added and 78 deleted, with most of the additions and deletions being partially modifying the lines (which git still counts as deleting a line and adding a new one).
+To provide one reference point to judge how much of the code should be re-used, a command `git diff --stat pre-task-1..post-task-1` tells me (the instructor) that my personal attempt at Task 1 required 67 lines added and 78 deleted, with most of the additions and deletions being partially modifying the lines (which git still counts as deleting a line and adding a new one).
 And the following commands tell me that the change amounts to 179 words added and 292 deleted, as well as to 2,029 characters added and 2,736 deleted.
 My deleting one long comment in the code accounts for 103 words and 609 characters, so fewer deletions are related to functionally meaningful changes.
 This is obviously just one reference points and less changes aren't necessarily better;
