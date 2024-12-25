@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-gh_orgname="stats-comp-algo-software-2023"
+gh_orgname="stats-comp-algo-software-2024"
 reponame="hiperglm"
 
 SCRIPT_DIR=$( cd -- "$( dirname -- "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )
