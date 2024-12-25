@@ -66,7 +66,7 @@ Log in to JHPCE and `srun --pty bash` to be assigned a compute node.
 For this exercise, we use the `homework/git_experiment` folder from the course repository, so clone the repo to your JHPCE home directory:
 
 ```{bash, eval=FALSE}
-git clone https://github.com/aki-nishimura/stats-comp-algo-software-2024
+git clone https://github.com/aki-nishimura/stats-comp-algo-software-2025
 ```
 
 Next, copy the `git_experiment` folder via a command `cp -r git_experiment git_experiment_copy` (`-r` for "recursive" copy that includes the folder's contents and sub-directories).
@@ -116,7 +116,7 @@ To sanity check that your script ran as expected, check the commit history via `
 Then check the disk space usage of the `git_experiment_copy` folder. 
 You can do this via `du -h -s git_experiment_copy` (`-h` for "human-readable" and `-s` for "summarize") or `du -h -s .` from inside the folder.
 
-Next, make a fresh clone of the repo; you can remove the old one via `rm -rf stats-comp-algo-software-2024`.
+Next, make a fresh clone of the repo; you can remove the old one via `rm -rf stats-comp-algo-software-2025`.
 And repeat the above process from the beginning, but without ever adding the PDF output to the repo.
 
 **Tips:**
@@ -142,7 +142,7 @@ Also make sure to use `sbatch`, and _not_ `srun`, for such a long job.
 
 **Tips:**
 You can transfer the disk usage result from JHPCE to your local computer via 
-`rsync -P "your_username@jhpce03.jhsph.edu:/users/your_username/stats-comp-algo-software-2024/homework/git_experiment_copy/git_repo_size_history.txt" git_experiment` (assuming that you are running the command from the `homework` folder).
+`rsync -P "your_username@jhpce03.jhsph.edu:/users/your_username/stats-comp-algo-software-2025/homework/git_experiment_copy/git_repo_size_history.txt" git_experiment` (assuming that you are running the command from the `homework` folder).
 
 **Question:** 
 Plot the disk usage of the git repo with the number of commits on the $x$-axis.

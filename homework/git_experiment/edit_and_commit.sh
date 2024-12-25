@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-cd "${HOME}/stats-comp-algo-software-2024/homework/git_experiment_copy"
+cd "${HOME}/stats-comp-algo-software-2025/homework/git_experiment_copy"
 
 for commit_count in {2..10}
 do

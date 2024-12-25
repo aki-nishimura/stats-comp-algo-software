@@ -7,7 +7,7 @@
 # - https://docs.github.com/en/organizations/managing-user-access-to-your-organizations-repositories/managing-repository-roles/setting-base-permissions-for-an-organization
 
 input_flag=$1
-gh_orgname="stats-comp-algo-software-2024"
+gh_orgname="stats-comp-algo-software-2025"
 reponame="hiperglm"
 
 SCRIPT_DIR=$( cd -- "$( dirname -- "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )

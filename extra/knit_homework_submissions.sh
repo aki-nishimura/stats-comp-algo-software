@@ -15,7 +15,7 @@ do
 
 	if ! grep -q ${gh_usrname} <(git remote -v); then
 		# Add a remote only if it doesn't yet exist 
-		git remote add ${gh_usrname} "https://github.com/${gh_usrname}/stats-comp-algo-software-2024"
+		git remote add ${gh_usrname} "https://github.com/${gh_usrname}/stats-comp-algo-software-2025"
 	fi
 		
 	echo "Fetching and checking out ${gh_usrname}'s submission of ${hw_branch_name}..."
