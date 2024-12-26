@@ -1,4 +1,5 @@
 # Before the term starts
+* Turn public repos from previous year to private 
 * Start a new course repo for the current year
 * Update the links to the course repo by running `update_academic_year.sh`
 
