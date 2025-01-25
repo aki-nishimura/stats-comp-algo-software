@@ -103,15 +103,15 @@ Also classic&hellip;
 
 # What constitutes proper software?
 
-![:vspace 2.5em]
-![:image 100%](figure/clean_code.png)
+![:vspace 1em]
+![:image 100%](figure/software_maintenance_costs.jpeg)
 
 ---
 
 # What constitutes proper software?
 
-![:vspace 1em]
-![:image 100%](figure/software_maintenance_costs.jpeg)
+![:vspace 2.5em]
+![:image 100%](figure/clean_code.png)
 
 ---
 
@@ -133,7 +133,7 @@ import numpy as np
 n = 4096
 A = np.random.randn(n, n)
 B = np.random.randn(n, n)
-%timeit A.dot(B)
+%timeit A @ B
 ```
 
 ---
@@ -236,7 +236,7 @@ glmnet::glmnet(X, y, family = 'cox')
 ```{r, echo=FALSE, error=TRUE}
 # Directly produce the error message b/c it's nuisance (esp. when a fortran complier
 # isn't included in Xcode) having to install an older ver of `glmnet` just for the error.
-stop("Cox model mot implemented for sparse x in glmnet", call. = FALSE)
+stop("Cox model not implemented for sparse x in glmnet", call. = FALSE)
 ```
 
 ---
@@ -274,7 +274,7 @@ Statisticians don't even know what they don't know.
 --
 
 Statisticians think: <br> 
-&emsp; "I do statistics &mdash; let engineers write software." <br>
+&emsp; "I do statistics&mdash;let engineers write software." <br>
 --
 &emsp; "It works on small data, it should work on bigger one."
 
@@ -289,32 +289,29 @@ _We gotta start changing this._
 
 ---
 
-# Thoughts behind the course design
+# On the course design
 
 ![:vspace 2ex]
 
 <!-- I wanted to address some of the misconception/confusions, which have been detrimental to the discipline, and actually teach statistical computing. -->
 
-Misconception/confusions around "statistical computing":
-
---
+Many "statistical computing" courses focus only on programming and/or algorithms, but 
 
 ![:vspace -.5ex]
 
-* programming $=$ computing ? <!-- Computing: use of computers to solve mathematical equations. -->
---
-
-* algorithms $=$ computing ? <!-- Computing involves practical implementations of algorithms. -->
---
-
-![:vspace 3ex]
-
-Most essential skill sets for our students?
-<!-- (that are not being taught in our current curriculum) -->
+$$\text{programming} \,\neq\, \text{computing} \,\neq\, \text{algorithm}.$$
+<!-- Computing: use of computers to solve mathematical problems. -->
+<!-- Computing involves practical implementations of algorithms. -->
 
 --
 
+Software dev skill is also important and complementary, yet previously not covered in a typical stats curriculum.
 ![:vspace -.5ex]
+
+--
+
+In fact, in terms of utility for a typical student,
+![:vspace -.7ex]
 $$
 \begin{aligned}
 &\hspace{-2.6em}\text{software dev} \\
@@ -325,8 +322,8 @@ $$
 
 --
 
-![:vspace 3ex]
-$\Rightarrow$ Why not teach all these skills through developing <br> &emsp;&nbsp; a computationally-intensive statistical software?
+![:vspace -.3ex]
+This course attempts to teach all three via development of a computationally-intensive statistical software.
 
 <!-- (Additional benefits of this idea: many resources talk about effective software development, but often it's not obvious how to apply them to statistical software, especially computationally-oriented ones. And I get to share some of the best practices I have developed over years.) -->
 
