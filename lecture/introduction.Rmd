@@ -117,6 +117,8 @@ B = np.random.randn(n, n)
 %timeit A @ B
 ```
 
+<!-- Demonstrate the effects of multi-threading in OpenBLAS via `export OMP_NUM_THREADS=1` and in Apple's Accelerate via `export VECLIB_MAXIMUM_THREADS=1`. -->
+
 ---
 
 # Problems with stats software landscape
