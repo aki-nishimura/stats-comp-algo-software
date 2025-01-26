@@ -183,6 +183,9 @@ Set up your own version of the `hiperglm` package as we discussed in the class a
 The goal here is to outline a skeleton of the package, without actually implementing the functions.
 For now, let these "placeholder" functions simply throw warnings that they are yet to be implemented.
 
+**Note**: In class, we started with a package name `hiperLogit` and variable names `*logit*`; this was mainly to demonstrate the tools like `grep` and `find` you can use to refactor code later. 
+In setting up the package for your assignment, you can start directly with a package `hiperglm` and variable names `*glm*`.
+
 ## Things to commit and submit
 
 - Hyperlink to the `hiperglm` repository on your Github account

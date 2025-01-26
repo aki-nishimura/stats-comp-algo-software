@@ -1,8 +1,5 @@
 # Setting up a Git repo and GitHub remote for an R package
 
-**Note**: In class, we started with a package name `hiperLogit` and variable names `*logit*`; this was mainly to demonstrate the tools like `grep` and `find` you can use to refactor code later. 
-In setting up the package for your assignment, you can start directly with a package `hiperglm` and variable names `*glm*`.
-
 - Initialize `hiperLogit` package skeleton
   * `usethis::create_package("~/hiperLogit")`
   * Create a Github repo `hiper-logit-demo` and set it as a remote
