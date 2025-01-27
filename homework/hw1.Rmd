@@ -20,13 +20,14 @@ In this course, you will be mainly interacting with Git through its command-line
 (In particular, I am not going to help you if you get yourself into trouble by using a Git GUI, like the RStudio one.)
 If you are on Windows, you can use [Git Bash](https://www.atlassian.com/git/tutorials/git-bash). 
 If you are on Mac, I recommend you use [iTerm2](https://iterm2.com/), instead of the built-in Terminal, along with [Oh My Zsh](https://ohmyz.sh/) and its [Powerlevel10k](https://github.com/romkatv/powerlevel10k) theme. 
-If you are on Linux, most likely you don't need my suggestions :-)
+If you are on Linux, most likely you don't need my suggestions on what to do :-)
 
-Besides the bare minimum Git set-up, you should also set up the default editor and visual diff tool. 
+Besides the bare minimum Git set-up, you should set up a text editor be used by Git for commit messages and such.
 I personally use Sublime Text as the Git editor on macOS and, for those on Windows, Notepad++ is one popular option. 
-As for visual diff, I like [Meld](https://meldmerge.org/) but it is currently unavailable for latest macOS versions, unfortunately;
+It is also a good idea to set up a visual diff tool, though I won't insist on this one partly because Git GUI as discussed below also provides this capability.
+If you want to give visual diff a try, I like [Meld](https://meldmerge.org/) but it is currently unavailable for latest macOS versions, unfortunately;
 so I have been using [KDiff3](https://apps.kde.org/kdiff3/) instead.
-The following commands tell Git to use Sublime and KDiff3:
+You should use whatever editor and visual diff you like but, to illustrate how to set them up, the following commands tell Git to use Sublime and KDiff3:
 
 ```{bash, eval=FALSE}
 git config --global core.editor subl --wait
